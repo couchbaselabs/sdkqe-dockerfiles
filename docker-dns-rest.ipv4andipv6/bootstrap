@@ -1,0 +1,10 @@
+#!/bin/sh
+
+PY=2.7.15-r0
+apk add --update gcc libgcc libc-dev libev
+apk add --update py-pip python=$PY python-dev=$PY
+pip install -r /data/requirements.txt
+apk del python-dev gcc libgcc libc-dev py-pip libev
+rm -rf /tmp/*
+rm -rf /var/cache/apk/*
+

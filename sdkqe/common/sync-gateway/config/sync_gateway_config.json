@@ -1,0 +1,20 @@
+{
+  "log": ["*", "Import+"],
+  "databases": {
+    "db": {
+      "users": {
+          "testuser": {
+            "admin_channels": ["ch_testuser"],
+            "password": "ch_password"
+          }
+        },
+      "server": "http://node0:8091",
+      "bucket": "default",
+      "password": "password",
+      "import_docs": "continuous",
+      "unsupported": {
+         "enable_extended_attributes":true
+      }
+    }
+  }
+}
