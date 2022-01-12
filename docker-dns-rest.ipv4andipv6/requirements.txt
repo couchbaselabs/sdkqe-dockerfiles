@@ -1,5 +1,5 @@
 
-dnslib==0.9.4
+dnslib==0.9.17
 docker-py==1.1.0
 falcon==0.3.0
 gevent==1.0.2
